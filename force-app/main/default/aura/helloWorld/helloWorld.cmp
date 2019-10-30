@@ -1,0 +1,10 @@
+<aura:component >
+    <h1>Aman Kumar Ishwar</h1>
+	<p>Hello Lightning!</p>
+    <p>{!v.message} This is helloworld.cmp</p>
+    <c:helloMessage message="You look nice today."/>
+    <c:helloMessage customMessage = "This is the custom Message"/>
+    <p>{!v.message} This is helloworld.cmp</p>
+    
+    
+</aura:component>
